@@ -1,44 +1,34 @@
-@ import 'reset'
-body { 
-  background: url(http://i.imgur.com/vjkynRK.jpg) scroll;
-  background-position: center;
-  repeat: no-repeat;
-        
-   }
-
-       *{
-        margin: 0;
-        padding: 0;
-       }
-    footer {
-    position: fixed;
-    font-size: 14px;
-    bottom: 20px;
-    left: 40%;
-      }
+@import 'reset';
+@import 'global';
+footer {
+position: fixed;
+font-size: 14px;
+bottom: 20px;
+left: 40%;
+}
            
- h1 {
+h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: Dosis;
   text-align: center;
   text-transform: uppercase;
-     font-size: 35px;
-    -webkit-text-fill-color:              transparent;
-    -webkit-background-clip: text;
-    display: block;       
-    }
+  font-size: 35px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display: block;       
+  }
 
-  div {
+div {
   position: absolute;
   margin-top: 10%;
   font-family: "Dosis";
   text-align: center;
   text-transform: uppercase;
   width: 33%;
-      }
+  }
     
-   .verticaline1 {
+  .verticaline1 {
         }
   .verticaline2 {
     left: 33%;
@@ -47,39 +37,38 @@ body {
     left: 66%;
   }    
   
-      strong{
-
-   background: url(http://i.imgur.com/vjkynRK.jpg);
-        
-        font-size: 35px;
-         -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    display:block;
-    text-align: center;
-      }
+strong{
+  background: url(http://i.imgur.com/vjkynRK.jpg);
+  font-size: 35px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display:block;
+  text-align: center;
+  }
       
-      #contacts {
-       display: inline-block;
-       position: relative;
-       font-size: 30px;
-       
-      }
-      fieldset{
-      margin-top: 50%;
-      display: block;
-      border: 2px solid rgb(113,63,108);
-      }
-      legend{
-      border:2px solid rgb(113,63,108);
-      }
-      textarea { 
-       background: url(http://i.imgur.com/vjkynRK.jpg);
-    -webkit-text-fill-color:              transparent;
-    -webkit-background-clip: text;
-        border:2px solid rgb(113,63,108);
-      }
-      button{
+#contacts{
+  display: inline-block;
+  position: relative;
+  font-size: 30px; 
+  }
+      
+fieldset{
+  margin-top: 50%;
+  display: block;
+  border: 2px solid rgb(113,63,108);
+  textarea{ 
+  background: url(http://i.imgur.com/vjkynRK.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  border:2px solid rgb(113,63,108);
+  legend{
+  border:2px solid rgb(113,63,108);
+  button{
         position: absolute;
         margin-left: 10px;
         margin-top: 26.5px;
+        }
+          }
+  }
+      
       }
